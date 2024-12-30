@@ -1,0 +1,106 @@
+* {
+  font-family: "Montserrat", "Noto Sans JP", serif;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", "Noto Sans JP", serif;
+}
+
+header {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+nav div.active {
+  font-weight: bold;
+  border-bottom: 3px solid blue;
+}
+
+section {
+  text-align: center;
+}
+
+button {
+  margin: 0 5px;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #6f7177;
+  border: 0;
+  font-weight: 400;
+}
+
+button.active {
+  background-color: #4b40ee;
+  color: white;
+}
+
+.price {
+  font-size: 70px;
+  font-weight: 500;
+  color: #1a243a;
+}
+
+.priceSym {
+  color: #bdbebf;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.profit {
+  color: #67bf6b;
+}
+
+.subTabs {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
+.subTabs div {
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.activeTab {
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 3px solid #4b40ee;
+}
+
+.deActiveTab {
+  color: #6f7177;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+}
+
+.graphContainer {
+  max-width: 750px;
+  margin-left: 30px;
+}
+
+.graph-nav {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.center {
+  align-items: center;
+}
+
+img {
+  margin: 0 10px;
+}
+
+.graph {
+  margin-top: 30px;
+}
+
+.recharts-cartesian-axis-ticks {
+  display: none;
+}
